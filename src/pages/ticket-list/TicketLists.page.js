@@ -4,6 +4,7 @@ import { PageBreadcrumb } from "../../components/breadcrumb/Breadcrumb.comp";
 import { SearchForm } from "../../components/search-form/SearchForm.comp";
 import { TicketTable } from "../../components/ticket-table/TicketTable.comp";
 import tickets from "../../assets/data/dummy-tickets.json";
+import { MessageHistory } from "../../components/message-history/MessageHistory.comp";
 
 export const TicketLists = () => {
   const [str, setStr] = useState("");
